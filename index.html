@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+        integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="shortcut icon" href="./src/imagens/favicon.ico" type="image/x-icon">
+    <title>Wagner Goulart - Desenvolvedor Frontend</title>
+
+    <link rel="stylesheet" href="src/css/fontawesome.css">
+    <link rel="stylesheet" href="src/css/reset.css">
+    <link rel="stylesheet" href="src/css/variaveis.css">
+    <link rel="stylesheet" href="src/css/globais.css">
+    <link rel="stylesheet" href="src/css/header.css">
+    <link rel="stylesheet" href="src/css/home.css">
+    <link rel="stylesheet" href="src/css/sobre.css">
+    <link rel="stylesheet" href="src/css/habilidades.css">
+    <link rel="stylesheet" href="src/css/projetos.css">
+    <link rel="stylesheet" href="src/css/footer.css">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="row justify-content-between alinhar-itens-no-centro">
+                <a href="#">
+                    <img class="logo" src="./src/imagens/logo.png" alt="">
+                </a>
+
+                <nav>
+                    <input type="checkbox" id="menu-hamburguer">
+                    <label for="menu-hamburguer">
+                        <div class="menu">
+                            <span class="hamburguer"></span>
+                        </div>
+                    </label>
+
+                    <ul>
+                        <li><a href="#sobre-min">Sobre mim</a></li>
+                        <li><a href="#habilidades">Habilidades</a></li>
+                        <li><a href="#projetos">Projetos</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <section class="home">
+        <div class="container">
+            <div class="row full-screen alinhar-itens-no-centro">
+                <div class="texto-home">
+                    <p>Hello World!</p>
+                    <h1>Sou o Wagner Goulart</h1>
+                    <h2>Desenvolvedor Frontend</h2>
+                    <div class="redes-sociais">
+                        <a href="https://www.linkedin.com/in/wagner-goulart-2b9843268/" target="_blank">
+                            <i class="fa-brands fa-linkedin-in"></i>
+                        </a>
+                        <a href=" https://wa.me/5547999532239" target="_blank">
+                            <i class="fa-brands fa-whatsapp"></i>
+                        </a>
+                        <a href="https://github.com/Wagner-Goulart" target="_blank">
+                            <i class="fa-brands fa-github"></i>
+                        </a>
+                        <a href="mailto:wagnergoulart.itj@gmail.com" target="_blank">
+                            <i class="fa-regular fa-at"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="img-home">
+                    <div class="img-box inner-shadow">
+                        <img src="./src/imagens/foto-perfil.png" alt="Foto do perfil" class="outer-shadow">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="sobre-mim section" id="sobre-min">
+        <div class="container">
+            <div class="row">
+                <div class="section-title">
+                    <h2>Sobre mim</h2>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="imagem-sobre-mim">
+                    <div class="img-box inner-shadow">
+                        <img class="outer-shadow" src="./src/imagens/foto-perfil.png" alt="Foto do Perfil">
+                    </div>
+
+                </div>
+                <div class="informacoes-sobre-mim">
+                    <p><strong>Me chamo Wagner, um desenvolvedor web com experiência em HTML, CSS, JavaScript.</strong>
+                    </p>
+                    <p>Estou sempre estudando para aprimorar minhas habilidades como desenvolvedor. Acredito que o
+                        aprendizado contínuo é essencial para o sucesso nessa área em constante evolução.
+                    </p>
+                    <p>Procuro oportunidades para aplicar meus conhecimentos em projetos desafiadores e colaborar com
+                        outros profissionais. Fique à vontade para entrar em contato comigo
+                    </p>
+                    <div class="botoes">
+                        <a href="./src/arquivos/Curriculo-Wagner-Goulart.pdf" class="botao" target="_blank">Veja meu
+                            Currículo</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="habilidades section" id="habilidades">
+        <div class="container">
+            <div class="row">
+                <div class="section-title">
+                    <h2>Habilidades</h2>
+                </div>
+            </div>
+        </div>
+
+        <div class="container-habilidades">
+
+
+            <div class="habilidade">
+                <div class="logo">
+                    <i class="devicon-html5-plain"></i>
+                </div>
+                <h3>HTML</h3>
+                <p><strong>Conhecimentos nas tags HTML necessários para criação de toda a estrura de um site</strong>.
+                    Utlizando de conceitos de semântica para otimização da página para os motores de busca</p>
+            </div>
+
+            <div class="habilidade">
+                <div class="logo">
+                    <i class="devicon-css3-plain"></i>
+                </div>
+                <h3>CSS</h3>
+                <p><strong>Conhecimentos de estilização e responsividade.</strong> Fazendo uso de conceitos como GRID,
+                    FLEXBOX e MEDIA QUERIES</p>
+            </div>
+
+            <!-- <div class="habilidade">
+                <div class="logo">
+                    <i class="devicon devicon-javascript-plain"></i>
+                </div>
+                <h3>JavaScript</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur recusandae aperiam labore
+                    ratione praesentium at dolore provident minus, iusto, aut assumenda, dolor sint explicabo nihil
+                    excepturi sit? Ipsam, quidem magni.</p>
+            </div> -->
+
+            <div class="habilidade">
+                <div class="logo">
+                    <i class="devicon-git-plain"></i>
+                </div>
+                <h3>GIT</h3>
+                <p><strong>Uso do terminal através linhas de comando (CLI),</strong> para criação de repositório local,
+                    Commits, Push. Link entre o repositório local e na nuvem</p>
+            </div>
+
+            <div class="habilidade">
+                <div class="logo">
+                    <i class="devicon-github-original"></i>
+                </div>
+                <h3>GITHUB</h3>
+                <strong>
+                    <p>Criação de repsitórios na nuvem para guarda dos arquivos do projeto.
+                </strong>
+                Utilização do GITHUB PAGES para deploy dos sites.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section class="projetos" id="projetos">
+        <div class="container">
+            <div class="row">
+                <div class="section-title">
+                    <h2>Meus Projetos</h2>
+                </div>
+            </div>
+        </div>
+
+        <div class="container-projetos container">
+            <div class="projeto">
+                <a href="https://wagner-goulart.github.io/huddle-landing-page-with-single-introductory-section-master/" target="_blank">
+                    <img src="./src/imagens/projeto-huddle.PNG" alt="Projeto Huddle">
+                    <h3>Projeto Huddle</h3>
+                    <div class="informacoes-projeto">
+                        <p>Landing page para o aplicativo fictício Huddle, Desenvolvido com CSS GRID e MEDIA QUERIES para responsividade
+                        </p>
+                        <p>Ver no Github pages</p>
+                    </div>
+                </a>
+            </div>
+
+            <div class="projeto">
+                <a href="https://wagner-goulart.github.io/projeto-SOA/" target="_blank">
+                    <img src="./src/imagens/projeto-soa-2.PNG" alt="nome do projeto">
+                    <h3>Projeto "SOA"</h3>
+                    <div class="informacoes-projeto">
+                        <p>Projeto criado como tema a série "Sons of Anarchy", trata-se de uma Landing page onde foram utilizados conceitos de semântica e responsividade para o desenvolvimento
+                        </p>
+                        <p>Ver no Github pages</p>
+                    </div>
+                </a>
+            </div>
+
+            <div class="projeto">
+                <a href="#">
+                    <img src="https://via.placeholder.com/515x700" alt="nome do projeto">
+                    <h3>Projeto 3</h3>
+                    <div class="informacoes-projeto">
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptas voluptatem assumenda
+                            doloribus at ipsam cum odit veniam
+                        </p>
+                        <p>Ver no Github pages</p>
+                    </div>
+                </a>
+            </div>
+
+            <!-- <div class="projeto">
+                <a href="#">
+                    <img src="https://via.placeholder.com/515x700" alt="nome do projeto">
+                    <h3>Projeto 4</h3>
+                    <div class="informacoes-projeto">
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptas voluptatem assumenda
+                            doloribus at ipsam cum odit veniam
+                        </p>
+                        <p>Ver no Github pages</p>
+                    </div>
+                </a>
+            </div>
+        </div> -->
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <h2>Me envie uma mensagem.</h2>
+            <div class="redes-sociais hover-footer">
+                <a href="https://www.linkedin.com/in/wagner-goulart-2b9843268/" target="_blank">
+                    <i class="fa-brands fa-linkedin-in"></i>
+                </a>
+                <a href=" https://wa.me/5547999532239" target="_blank">
+                    <i class="fa-brands fa-whatsapp"></i>
+                </a>
+                <a href="https://github.com/Wagner-Goulart" target="_blank">
+                    <i class="fa-brands fa-github"></i>
+                </a>
+                <a href="mailto:wagnergoulart.itj@gmail.com" target="_blank">
+                    <i class="fa-regular fa-at"></i>
+                </a>
+            </div>
+        </div>
+        </div>
+        <img class="logo" src="./src/imagens/logo.png" alt="">
+    </footer>
+
+</body>
+
+</html>
